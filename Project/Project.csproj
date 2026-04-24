@@ -80,17 +80,17 @@
     <Compile Include="Before Login\welcome.aspx.designer.cs">
       <DependentUpon>welcome.aspx</DependentUpon>
     </Compile>
-    <Compile Include="main.Master.cs">
+    <Compile Include="Before Login\main.Master.cs">
       <DependentUpon>main.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="main.Master.designer.cs">
+    <Compile Include="Before Login\main.Master.designer.cs">
       <DependentUpon>main.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="main.Master" />
+    <Content Include="Before Login\main.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

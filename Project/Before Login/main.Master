@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.Master.cs" Inherits="Project.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+<style type="text/css">
+    body {
+        background-image: url('/Pic/1.png'); 
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .auto-style1 {
+        width: 100%; 
+    }
+    .auto-style2 {
+        width: 30%; 
+    }
+</style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table cellpadding="10" class="auto-style1">
+    <tr>
+        <td class="auto-style2">
+            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="True" Font-Names="Georgia" Font-Size="XX-Large" ForeColor="White" Text="WHITE JASMINE"></asp:Label>
+        </td>
+        
+        <td>&nbsp;</td>
+        
+        <td style="text-align: right;">
+            <asp:HyperLink ID="linkHome" runat="server" Font-Names="Arial" ForeColor="#242324">HOME </asp:HyperLink>&nbsp;
+            <asp:HyperLink ID="linkServices" runat="server" Font-Names="Arial" ForeColor="#242324">SERVICES </asp:HyperLink>&nbsp;
+            <asp:HyperLink ID="linkAbout" runat="server" Font-Names="Arial" ForeColor="#242324">ABOUT US</asp:HyperLink>
+        </td>
+    </tr>
+</table>
+        </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
