@@ -34,7 +34,7 @@
         <td>&nbsp;</td>
         
         <td style="text-align: right;">
-            <asp:HyperLink ID="linkHome" runat="server" Font-Names="Arial" ForeColor="#242324">HOME </asp:HyperLink>&nbsp;
+            <asp:HyperLink ID="linkHome" runat="server" Font-Names="Arial" ForeColor="#242324" Font-Underline="False" NavigateUrl="~/Before Login/home.aspx">HOME </asp:HyperLink>&nbsp;
             <asp:HyperLink ID="linkServices" runat="server" Font-Names="Arial" ForeColor="#242324">SERVICES </asp:HyperLink>&nbsp;
             <asp:HyperLink ID="linkAbout" runat="server" Font-Names="Arial" ForeColor="#242324">ABOUT US</asp:HyperLink>
         </td>

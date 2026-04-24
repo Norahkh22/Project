@@ -11,23 +11,25 @@ namespace Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string currentPage = System.IO.Path.GetFileName(Request.Url.AbsolutePath).ToLower();
+
+            // 2. تصفير الـ Bold لجميع الروابط (عشان ما يبقى أحد بولد بالخطأ)
             linkHome.Font.Bold = false;
-            linkServices.Font.Bold = false;
             linkAbout.Font.Bold = false;
+            linkServices.Font.Bold = false;
 
-            string activePage = Request.RawUrl.ToLower();
-
-            if (activePage.Contains("login.aspx"))
+            // 3. تفعيل الـ Bold للرابط الذي يطابق الصفحة الحالية
+            if (currentPage == "home.aspx" || currentPage == "")
             {
                 linkHome.Font.Bold = true;
             }
-            else if (activePage.Contains("services.aspx"))
-            {
-                linkServices.Font.Bold = true;
-            }
-            else if (activePage.Contains("aboutus.aspx"))
+            else if (currentPage == "about.aspx")
             {
                 linkAbout.Font.Bold = true;
+            }
+            else if (currentPage == "services.aspx")
+            {
+                linkServices.Font.Bold = true;
             }
 
         }

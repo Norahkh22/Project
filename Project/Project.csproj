@@ -67,18 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Before Login\welcome.aspx" />
+    <Content Include="Before Login\home.aspx" />
     <Content Include="Pic\1.png" />
     <Content Include="Pic\2.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Before Login\welcome.aspx.cs">
-      <DependentUpon>welcome.aspx</DependentUpon>
+    <Compile Include="Before Login\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Before Login\welcome.aspx.designer.cs">
-      <DependentUpon>welcome.aspx</DependentUpon>
+    <Compile Include="Before Login\home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Before Login\main.Master.cs">
       <DependentUpon>main.Master</DependentUpon>
