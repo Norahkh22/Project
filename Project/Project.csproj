@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Before Login\home.aspx" />
+    <Content Include="Before Login\Login .aspx" />
     <Content Include="Pic\1.png" />
     <Content Include="Pic\2.jpg" />
     <Content Include="Web.config" />
@@ -80,6 +81,13 @@
     <Compile Include="Before Login\home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Before Login\Login .aspx.cs">
+      <DependentUpon>Login .aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Before Login\Login .aspx.designer.cs">
+      <DependentUpon>Login .aspx</DependentUpon>
+    </Compile>
     <Compile Include="Before Login\main.Master.cs">
       <DependentUpon>main.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -88,10 +96,17 @@
       <DependentUpon>main.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="User\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Before Login\main.Master" />
     <None Include="packages.config" />
+    <Content Include="User\Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -101,7 +116,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Admin\" />
-    <Folder Include="User\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

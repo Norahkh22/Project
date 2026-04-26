@@ -13,12 +13,10 @@ namespace Project
         {
             string currentPage = System.IO.Path.GetFileName(Request.Url.AbsolutePath).ToLower();
 
-            // 2. تصفير الـ Bold لجميع الروابط (عشان ما يبقى أحد بولد بالخطأ)
             linkHome.Font.Bold = false;
             linkAbout.Font.Bold = false;
             linkServices.Font.Bold = false;
 
-            // 3. تفعيل الـ Bold للرابط الذي يطابق الصفحة الحالية
             if (currentPage == "home.aspx" || currentPage == "")
             {
                 linkHome.Font.Bold = true;
