@@ -21,7 +21,7 @@
         width: 30%; 
     }
 </style>
-</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></head>
 <body>
     <form id="form1" runat="server">
         <div>
@@ -35,8 +35,8 @@
         
         <td style="text-align: right;">
             <asp:HyperLink ID="linkHome" runat="server" Font-Names="Arial" ForeColor="#242324" Font-Underline="False" NavigateUrl="~/Before Login/home.aspx">HOME </asp:HyperLink>&nbsp;
-            <asp:HyperLink ID="linkServices" runat="server" Font-Names="Arial" ForeColor="#242324">SERVICES </asp:HyperLink>&nbsp;
-            <asp:HyperLink ID="linkAbout" runat="server" Font-Names="Arial" ForeColor="#242324">ABOUT US</asp:HyperLink>
+            <asp:HyperLink ID="linkServices" runat="server" Font-Names="Arial" ForeColor="#242324" Font-Underline="False" NavigateUrl="~/Before Login/Services.aspx">SERVICES </asp:HyperLink>&nbsp;
+            <asp:HyperLink ID="linkAbout" runat="server" Font-Names="Arial" ForeColor="#242324" Font-Underline="False" NavigateUrl="~/Before Login/About us .aspx">ABOUT US</asp:HyperLink>
         </td>
     </tr>
 </table>

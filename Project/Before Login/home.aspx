@@ -25,14 +25,14 @@
             <td class="auto-style6">
 <asp:HyperLink ID="linklogin" runat="server" 
     style="display: block; width: 220px; text-align: center; padding: 15px 0px; background-color: #ccb293; border: 1px solid black; color: black; text-decoration: none; font-family: 'Times New Roman', Times, serif; font-weight: bold; margin-bottom: 20px; margin-right: 20%; margin-left: auto;" 
-    Font-Names="Times New Roman">LOG IN</asp:HyperLink>&nbsp;
+    Font-Names="Times New Roman" NavigateUrl="~/Before Login/Login .aspx">LOG IN</asp:HyperLink>&nbsp;
                 </td>
         </tr>
         <tr>
             <td class="auto-style4">
                 <asp:HyperLink ID="linkregister" runat="server" 
     style="display: block; width: 220px; text-align: center; padding: 15px 0px; background-color: #ccb293; border: 1px solid black; color: black; text-decoration: none; font-family: 'Times New Roman', Times, serif; font-weight: bold; margin-bottom: 20px; margin-right: 20%; margin-left: auto;" 
-    Font-Names="Times New Roman">REGISTER</asp:HyperLink>
+    Font-Names="Times New Roman" NavigateUrl="~/Before Login/Register.aspx">REGISTER</asp:HyperLink>
             </td>
         </tr>
         <tr>

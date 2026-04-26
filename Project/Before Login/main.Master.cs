@@ -17,15 +17,15 @@ namespace Project
             linkAbout.Font.Bold = false;
             linkServices.Font.Bold = false;
 
-            if (currentPage == "home.aspx" || currentPage == "")
+            if (currentPage == "home.aspx" || string.IsNullOrEmpty(currentPage) || currentPage == "default.aspx")
             {
                 linkHome.Font.Bold = true;
             }
-            else if (currentPage == "about.aspx")
+            else if (currentPage.Contains("about") && currentPage.Contains("us"))
             {
                 linkAbout.Font.Bold = true;
             }
-            else if (currentPage == "services.aspx")
+            else if (currentPage.Contains("services"))
             {
                 linkServices.Font.Bold = true;
             }

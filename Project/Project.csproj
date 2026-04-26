@@ -67,14 +67,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Before Login\About us .aspx" />
     <Content Include="Before Login\home.aspx" />
     <Content Include="Before Login\Login .aspx" />
     <Content Include="Before Login\Register.aspx" />
+    <Content Include="Before Login\Services.aspx" />
     <Content Include="Pic\1.png" />
     <Content Include="Pic\2.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Before Login\About us .aspx.cs">
+      <DependentUpon>About us .aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Before Login\About us .aspx.designer.cs">
+      <DependentUpon>About us .aspx</DependentUpon>
+    </Compile>
     <Compile Include="Before Login\home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -102,6 +111,13 @@
     </Compile>
     <Compile Include="Before Login\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Before Login\Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Before Login\Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User\Site1.Master.cs">
