@@ -54,7 +54,7 @@
             <hr style="border: 0; border-top: 1px solid #666; margin-bottom: 20px;" />
             <div style="font-size: 25px; font-family: 'Times New Roman';">
                 <span style="color: black;">You don't have an account? </span>
-                <asp:HyperLink ID="linkRegister" runat="server" NavigateUrl="~/register.aspx" 
+                <asp:HyperLink ID="linkRegister" runat="server" NavigateUrl="~/Before Login/Register.aspx" 
                     style="color: black; text-decoration: underline; ">
                     Register now
                 </asp:HyperLink>
