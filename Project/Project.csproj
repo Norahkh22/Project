@@ -68,6 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\Admin dashboard.aspx" />
+    <Content Include="Admin\Mapp.aspx" />
+    <Content Include="Admin\Mser.aspx" />
+    <Content Include="Admin\Muser.aspx" />
     <Content Include="Before Login\About us .aspx" />
     <Content Include="Before Login\home.aspx" />
     <Content Include="Before Login\Login .aspx" />
@@ -94,6 +97,27 @@
     </Compile>
     <Compile Include="Admin\admin.Master.designer.cs">
       <DependentUpon>admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Mapp.aspx.cs">
+      <DependentUpon>Mapp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Mapp.aspx.designer.cs">
+      <DependentUpon>Mapp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Mser.aspx.cs">
+      <DependentUpon>Mser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Mser.aspx.designer.cs">
+      <DependentUpon>Mser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Muser.aspx.cs">
+      <DependentUpon>Muser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Muser.aspx.designer.cs">
+      <DependentUpon>Muser.aspx</DependentUpon>
     </Compile>
     <Compile Include="Before Login\About us .aspx.cs">
       <DependentUpon>About us .aspx</DependentUpon>
