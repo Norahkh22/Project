@@ -74,6 +74,9 @@
     <Content Include="Before Login\Services.aspx" />
     <Content Include="Pic\1.png" />
     <Content Include="Pic\2.jpg" />
+    <Content Include="Pic\3.jpg" />
+    <Content Include="Pic\4.jpg" />
+    <Content Include="Pic\5.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
