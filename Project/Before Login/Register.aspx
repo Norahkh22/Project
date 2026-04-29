@@ -30,14 +30,14 @@
             <asp:Label ID="Label2" runat="server" Font-Names="Arial" Text="PHONE"></asp:Label>
         </td>
         <td class="auto-style3">
-            <asp:TextBox ID="txtPhone" runat="server" BackColor="#CCB293" Width="250px" BorderStyle="None" placeholder="966xxxxxxxxx"></asp:TextBox>
+            <asp:TextBox ID="txtPhone" runat="server" BackColor="#CCB293" Width="250px" BorderStyle="None" placeholder="05xxxxxxxx"></asp:TextBox>
         </td>
         <td class="auto-style3">
             <asp:RequiredFieldValidator ID="rfvPhone" runat="server" ControlToValidate="txtPhone" ErrorMessage="Required" ForeColor="#B50000" Display="Dynamic" Font-Names="Arial"></asp:RequiredFieldValidator>
             <asp:RegularExpressionValidator ID="revPhone" runat="server" 
     ControlToValidate="txtPhone" 
-    ErrorMessage="966xxxxxxxxx" 
-    ValidationExpression="^(966|0)5\d{8}$" 
+    ErrorMessage="05xxxxxxxx" 
+    ValidationExpression="^05\d{8}$" 
     ForeColor="#B50000" Display="Dynamic"></asp:RegularExpressionValidator>
         </td>
     </tr>
