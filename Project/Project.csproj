@@ -84,6 +84,7 @@
     <Content Include="Pic\5.jpg" />
     <Content Include="User\services.aspx" />
     <Content Include="User\reservation.aspx" />
+    <Content Include="User\WebForm4.aspx" />
     <Content Include="Web.config" />
     <Content Include="User\wlcomepage.aspx" />
   </ItemGroup>
@@ -192,6 +193,13 @@
     </Compile>
     <Compile Include="User\reservation.aspx.designer.cs">
       <DependentUpon>reservation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\WebForm4.aspx.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\WebForm4.aspx.designer.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\wlcomepage.aspx.cs">
       <DependentUpon>wlcomepage.aspx</DependentUpon>
