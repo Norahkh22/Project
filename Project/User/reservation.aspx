@@ -13,16 +13,11 @@
 
         .card {
             background: #E6C7A3!important;
-            backdrop-filter: blur(16px) !important;
-            -webkit-backdrop-filter: blur(16px) !important;
-            border-radius: 24px !important;
-            border: 1px solid rgba(255, 255, 255, 0.15) !important;
             padding: 35px !important;
             width: 48% !important;
             display: inline-block !important;
             vertical-align: top !important;
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
-            color: #fff !important;
+            color:white! important;
             box-sizing: border-box !important;
             text-align: left !important;
         }
@@ -43,7 +38,7 @@
             width: 100% !important;
             border: none !important;
             background: transparent !important;
-            color: #fff !important;
+            color: white !important;
             font-size: 14px !important;
         }
 
@@ -65,7 +60,6 @@
 
         .calendar-style .selected-day {
             background: rgba(200, 160, 130, 0.6) !important;
-            border-radius: 50% !important;
             padding: 6px 12px !important;
         }
 
@@ -80,11 +74,10 @@
             border: 1px solid rgba(255, 255, 255, 0.1) !important;
             color: #fff !important;
             padding: 16px 24px !important;
-            border-radius: 30px !important;
             font-size: 16px !important;
             text-align: left !important;
             cursor: pointer !important;
-            transition: all 0.3s ease !important;
+            
             width: 100% !important;
             box-sizing: border-box !important;
         }
@@ -106,7 +99,7 @@
             display: flex !important;
             justify-content: flex-end !important;
             margin-top: 20px !important;
-            box-sizing: border-box !important;
+           
         }
 
         .btn-confirm {
@@ -114,10 +107,10 @@
             border: 1px solid rgba(255, 255, 255, 0.3) !important;
             color: #fff !important;
             padding: 14px 50px !important;
-            border-radius: 30px !important;
+            
             font-size: 16px !important;
             cursor: pointer !important;
-            transition: background 0.3s ease !important;
+            
         }
 
         .btn-confirm:hover {
