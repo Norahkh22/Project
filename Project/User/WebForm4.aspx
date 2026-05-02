@@ -1,6 +1,4 @@
-﻿
-
-<%@ Page Title="" Language="C#" MasterPageFile="~/User/User1.Master" AutoEventWireup="true" CodeBehind="Confirmation.aspx.cs" Inherits="Project.User.Confirmation" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/User1.Master" AutoEventWireup="true" CodeBehind="Confirmation.aspx.cs" Inherits="Project.User.Confirmation" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
@@ -8,20 +6,33 @@
             display: flex !important;
             justify-content: center !important;
             align-items: center !important;
-            min-height: 70vh !important;
-            margin: 40px auto !important;
-            padding: 0 20px !important;
+            
+            /* زيادة الارتفاع ليتم توسيط البوكس في منتصف الشاشة */
+            min-height: 80vh !important; 
+            width: 100% !important;
+            
+            margin: 0 auto !important;
+            padding: 20px !important;
             box-sizing: border-box !important;
         }
 
         .confirmation-box {
             /* لون خلفية غير شفاف متناسق مع التصميم */
             background-color: #C19A6B !important; 
+            
             /* زوايا حادة غير دائرية */
             border-radius: 0 !important; 
-            padding: 60px 40px !important;
-            width: 100% !important;
-            max-width: 650px !important;
+            
+            /* أبعاد البوكس المربعة */
+            width: 380px !important;
+            height: 380px !important;
+            padding: 40px !important;
+            
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
+            
             text-align: center !important;
             color: #fff !important;
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
@@ -29,26 +40,26 @@
         }
 
         .confirmation-box h1 {
-            font-size: 32px !important;
-            margin-bottom: 30px !important;
+            font-size: 26px !important;
+            margin-bottom: 20px !important;
             font-weight: 400 !important;
             color: #fff !important;
         }
 
         .meditation-icon {
-            margin: 20px auto 30px !important;
+            margin: 15px auto 20px !important;
             display: flex !important;
             justify-content: center !important;
         }
 
         .meditation-icon svg {
-            width: 75px !important;
-            height: 75px !important;
+            width: 60px !important;
+            height: 60px !important;
             fill: #fff !important;
         }
 
         .confirmation-text {
-            font-size: 20px !important;
+            font-size: 18px !important;
             color: #fff !important;
             font-weight: 300 !important;
             opacity: 0.9 !important;
