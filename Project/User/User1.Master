@@ -34,11 +34,11 @@
                     <td>&nbsp;</td>
                     
                     <td style="text-align: right;">
-                        <asp:HyperLink ID="linkLogout" runat="server" Font-Names="Arial" ForeColor="#242324" Font-Underline="False" NavigateUrl="~/Before Login/home.aspx">LOG OUT</asp:HyperLink>&nbsp;
+                        <asp:HyperLink ID="linkLogout" runat="server" Font-Names="Arial" ForeColor="#242324" Font-Underline="False" NavigateUrl="~/Before Login/Login .aspx">LOG OUT</asp:HyperLink>&nbsp;
                         <asp:HyperLink ID="linkMyAccount" runat="server" Font-Names="Arial" ForeColor="#242324" Font-Underline="False" NavigateUrl="~/After Login/MyAccount.aspx">MY ACCOUNT</asp:HyperLink>&nbsp;
-                        <asp:HyperLink ID="linkHome" runat="server" Font-Names="Arial" ForeColor="#242324" Font-Underline="False" NavigateUrl="~/After Login/home.aspx">HOME</asp:HyperLink>&nbsp;
-                        <asp:HyperLink ID="linkServices" runat="server" Font-Names="Arial" ForeColor="#242324" Font-Underline="False" NavigateUrl="~/After Login/Services.aspx">SERVICES</asp:HyperLink>&nbsp;
-                        <asp:HyperLink ID="linkAbout" runat="server" Font-Names="Arial" ForeColor="#242324" Font-Underline="False" NavigateUrl="~/After Login/About us .aspx">ABOUT US</asp:HyperLink>
+                        <asp:HyperLink ID="linkHome" runat="server" Font-Names="Arial" ForeColor="#242324" Font-Underline="False" NavigateUrl="~/Before Login/home.aspx">HOME</asp:HyperLink>&nbsp;
+                        <asp:HyperLink ID="linkServices" runat="server" Font-Names="Arial" ForeColor="#242324" Font-Underline="False" NavigateUrl="~/Before Login/Services.aspx">SERVICES</asp:HyperLink>&nbsp;
+                        <asp:HyperLink ID="linkAbout" runat="server" Font-Names="Arial" ForeColor="#242324" Font-Underline="False" NavigateUrl="~/Before Login/About us .aspx">ABOUT US</asp:HyperLink>
                     </td>
                 </tr>
             </table>
