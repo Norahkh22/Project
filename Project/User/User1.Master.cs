@@ -11,7 +11,14 @@ namespace Project.User
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string currentPage = Request.AppRelativeCurrentExecutionFilePath;
 
+            Response.Write(currentPage);
+
+            if (currentPage.Contains("myaccountpage.aspx"))
+            {
+                linkMyAccount.Font.Bold = true;
+            }
         }
     }
 }

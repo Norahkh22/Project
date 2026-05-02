@@ -76,6 +76,7 @@
     <Content Include="Before Login\Login .aspx" />
     <Content Include="Before Login\Register.aspx" />
     <Content Include="Before Login\Services.aspx" />
+    <Content Include="User\myaccountpage.aspx" />
     <Content Include="Pic\1.png" />
     <Content Include="Pic\2.jpg" />
     <Content Include="Pic\3.jpg" />
@@ -83,6 +84,7 @@
     <Content Include="Pic\5.jpg" />
     <Content Include="User\WebForm3.aspx" />
     <Content Include="Web.config" />
+    <Content Include="User\wlcomepage.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin\Admin dashboard.aspx.cs">
@@ -162,6 +164,13 @@
     <Compile Include="Before Login\Services.aspx.designer.cs">
       <DependentUpon>Services.aspx</DependentUpon>
     </Compile>
+    <Compile Include="User\myaccountpage.aspx.cs">
+      <DependentUpon>myaccountpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\myaccountpage.aspx.designer.cs">
+      <DependentUpon>myaccountpage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User\User1.Master.cs">
       <DependentUpon>User1.Master</DependentUpon>
@@ -175,6 +184,13 @@
     </Compile>
     <Compile Include="User\WebForm3.aspx.designer.cs">
       <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\wlcomepage.aspx.cs">
+      <DependentUpon>wlcomepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\wlcomepage.aspx.designer.cs">
+      <DependentUpon>wlcomepage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
