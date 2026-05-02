@@ -32,7 +32,10 @@
     }
 
     </style>
-    <div class="box">
+    
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+        <div class="box">
 
     <asp:Label ID="Label1" runat="server" Text="My Account" CssClass="title"></asp:Label>
 
@@ -49,6 +52,4 @@
     </asp:HyperLink>
 
 </div>
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 </asp:Content>
