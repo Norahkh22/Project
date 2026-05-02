@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Project.Admin
+namespace Project
 {
 
 
-    public partial class Mser
+    public partial class myaccountpage
     {
     }
 }
