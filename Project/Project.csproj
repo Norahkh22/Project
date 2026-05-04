@@ -71,6 +71,10 @@
     <Content Include="Admin\Appointment Management.aspx" />
     <Content Include="Admin\Mapp.aspx" />
     <Content Include="Admin\Muser.aspx" />
+    <Content Include="App_Data\Database.mdf" />
+    <Content Include="App_Data\Database_log.ldf">
+      <DependentUpon>Database.mdf</DependentUpon>
+    </Content>
     <Content Include="Before Login\About us .aspx" />
     <Content Include="Before Login\home.aspx" />
     <Content Include="Before Login\Login .aspx" />
