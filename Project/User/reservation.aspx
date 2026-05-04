@@ -9,22 +9,21 @@
             padding: 0 20px !important;
             box-sizing: border-box !important;
             text-align: center !important;
+            
+            /* التعديل هنا: استخدام Flexbox لوضع العناصر بجانب بعضها */
+            display: flex !important;
+            justify-content: space-between !important;
+            align-items: flex-start !important;
+            gap: 24px !important;
         }
 
         .card {
             background: #E6C7A3!important;
             padding: 35px !important;
-            width: 48% !important;
-            display: inline-block !important;
-            vertical-align: top !important;
+            width: 48% !important; /* عرض 48% لكل حاوية لتأخذ مساحة مناسبة */
             color:white! important;
             box-sizing: border-box !important;
             text-align: left !important;
-        }
-
-        /* تحديد مسافة بين الحاويتين */
-        .card:first-child {
-            margin-right: 2% !important;
         }
 
         .card h2 {
@@ -99,7 +98,6 @@
             display: flex !important;
             justify-content: flex-end !important;
             margin-top: 20px !important;
-           
         }
 
         .btn-confirm {
@@ -107,10 +105,8 @@
             border: 1px solid rgba(255, 255, 255, 0.3) !important;
             color: #fff !important;
             padding: 14px 50px !important;
-            
             font-size: 16px !important;
             cursor: pointer !important;
-            
         }
 
         .btn-confirm:hover {
@@ -118,9 +114,11 @@
         }
 
         @media (max-width: 768px) {
+            .main-container {
+                flex-direction: column !important; /* لتصبح الحاويات تحت بعضها في الشاشات الصغيرة */
+            }
             .card {
                 width: 100% !important;
-                margin-right: 0 !important;
                 margin-bottom: 20px !important;
             }
         }
